@@ -44,7 +44,7 @@ class UI:
         mainCube.PrintCube()
         options = ["Turn a side", "Shuffle the cube", "Quit"]
         userInput = ""
-        while userInput != 3:
+        while userInput != 2:
             userInput = self.GetOptionFromList(options)
             print("")
             if userInput == 0:
